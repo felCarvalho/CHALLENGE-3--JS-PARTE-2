@@ -74,10 +74,10 @@ console.log(IMCjohn);
 const bmi = (IMCmark, IMCjohn) => {
     if (IMCmark >= IMCjohn) {
        // console.log(`Mark Miller's BMI (${IMCmark}), is higher than John Smith's BMI )${IMCjohn})`);
-        return `Mark Miller's BMI (${IMCmark}), is higher than John Smith's BMI (${IMCjohn})`;
+        return `${Objeto1['fullNameMark']} BMI (${IMCmark}), is higher than ${Objeto2['fullNameJohn']} BMI (${IMCjohn})`;
     } else {
        // console.log(`John Smit's BMI (${IMCjohn}), is higher than Mark Miller's BMI (${IMCmark})`);
-        return `John Smit's BMI (${IMCjohn}), is higher than Mark Miller's BMI (${IMCmark})`;
+        return `${Objeto2['fullNameJohn']} BMI (${IMCjohn}), is higher than ${Objeto1['fullNameJohn']} BMI (${IMCmark})`;
     }
 }
 
